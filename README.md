@@ -1,17 +1,1 @@
-# Hamza Yousaf — Portfolio
-
-A lightweight, responsive portfolio built with plain HTML, CSS, and JavaScript.
-
-## Run locally
-
-Serve this directory with any static file server, then open its local URL. For
-example, run `python -m http.server` from this directory. The animated
-lighthouse artwork is loaded from ASCII Magic and requires an internet
-connection.
-
-## Personalize
-
-- Replace the starter copy in `index.html` with your education, experience,
-  projects, resume, and interests.
-- Update the page title and description in the document head.
-- Add a resume PDF and link to it from the Resume section when ready.
+# Personal portfolio website
