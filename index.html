@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="The personal portfolio of Hamza Yousaf."
+    />
+    <title>Hamza Yousaf</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="https://www.ascii-magic.com/ascii/ascii.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <aside class="sidebar" aria-label="Portfolio navigation">
+      <a class="wordmark" href="#home" aria-label="Hamza Yousaf, home">
+        <span class="wordmark-mark" aria-hidden="true">HY</span>
+        <span>Hamza Yousaf</span>
+      </a>
+
+      <p class="sidebar-label">Explore</p>
+      <nav class="section-nav" aria-label="Main sections">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#resume">Resume</a>
+        <a class="nav-link" href="#interests">Interests</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span class="availability-dot" aria-hidden="true"></span>
+        <span>Portfolio / 2026</span>
+      </div>
+    </aside>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <h1 class="visually-hidden" id="hero-title">
+          Welcome to my portfolio, enjoy your stay.
+        </h1>
+
+        <div class="art-frame" aria-hidden="true">
+          <ascii-art
+            class="lighthouse-art"
+            piece="cliff-lighthouse-night"
+            look="dots"
+          ></ascii-art>
+          <pre class="welcome-art">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⡏⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠤⣤⣤⣤⣤⣤⣤⣤⣤⣿⣿⠇⠀⢿⣿⣷⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⣶⡶⠶⠶⠶⠶⠶⠶⠶⠶⠖⠒⠒⠒⠒⠒⠒⠒⠂⠀⠀⠀⠀
+⠀⠀⠘⢿⣿⣿⣟⠛⠛⠛⠛⠀⠀⠀⠛⠛⠛⠛⠋⠉⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠈⠛⣿⣿⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢹⣿⡿⠀⠀⠀⠀⠀⠀⠀⠀WELCOME TO MY PORTFOLIO, ENJOY YOUR STAY⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⣾⣿⠁⢀⣤⣾⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⣸⣿⢇⣶⣿⠟⠙⠻⣿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣿⣿⠿⠋⠁⠀⠀⠀⠀⠉⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</pre>
+        </div>
+
+        <a class="scroll-cue" href="#education" aria-label="Scroll to Education">
+          <span class="scroll-arrow" aria-hidden="true">↓</span>
+        </a>
+      </section>
+
+      <section class="content-section" id="education" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span>02</span> The foundation</p>
+          <h2 id="education-title">Education</h2>
+          <p class="section-intro">
+            The places, people, and ideas that shaped how I think.
+          </p>
+        </div>
+        <article class="entry-card">
+          <div class="entry-meta">
+            <span>Degree / Program</span>
+            <span>Year — Year</span>
+          </div>
+          <h3>Your degree or area of study</h3>
+          <p class="entry-subtitle">Institution name · City, Country</p>
+          <p class="entry-description">
+            Add a short note about your studies, a focus area, or something
+            meaningful you learned along the way.
+          </p>
+        </article>
+      </section>
+
+      <section class="content-section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span>03</span> The practice</p>
+          <h2 id="experience-title">Experience</h2>
+          <p class="section-intro">
+            A few roles and collaborations from my journey so far.
+          </p>
+        </div>
+        <article class="entry-card">
+          <div class="entry-meta">
+            <span>Role / Field</span>
+            <span>Year — Present</span>
+          </div>
+          <h3>Your role or position</h3>
+          <p class="entry-subtitle">Company or organization · City, Country</p>
+          <p class="entry-description">
+            Describe what you worked on, the people you worked with, and the
+            impact you helped make.
+          </p>
+        </article>
+      </section>
+
+      <section class="content-section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span>04</span> The experiments</p>
+          <h2 id="projects-title">Projects</h2>
+          <p class="section-intro">
+            Selected ideas brought to life, one small step at a time.
+          </p>
+        </div>
+        <article class="entry-card">
+          <div class="entry-meta">
+            <span>Personal / Collaborative</span>
+            <span>Year</span>
+          </div>
+          <h3>Your project name</h3>
+          <p class="entry-subtitle">Tools, technologies, or disciplines</p>
+          <p class="entry-description">
+            Share what the project does, why you made it, and what you learned
+            while building it.
+          </p>
+          <span class="text-link">Project link <span aria-hidden="true">↗</span></span>
+        </article>
+      </section>
+
+      <section class="content-section" id="resume" aria-labelledby="resume-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span>05</span> The overview</p>
+          <h2 id="resume-title">Resume</h2>
+          <p class="section-intro">
+            A concise overview of my experience and what I bring to a team.
+          </p>
+        </div>
+        <article class="entry-card resume-card">
+          <div>
+            <div class="entry-meta">
+              <span>Resume / CV</span>
+              <span>PDF</span>
+            </div>
+            <h3>Your next chapter starts here.</h3>
+            <p class="entry-description">
+              Add a brief note and link your latest resume when it’s ready.
+            </p>
+          </div>
+          <span class="resume-mark" aria-hidden="true">CV</span>
+        </article>
+      </section>
+
+      <section class="content-section" id="interests" aria-labelledby="interests-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span>06</span> Beyond the work</p>
+          <h2 id="interests-title">Interests</h2>
+          <p class="section-intro">
+            The curiosities and little pursuits that keep me inspired.
+          </p>
+        </div>
+        <article class="entry-card">
+          <div class="entry-meta">
+            <span>Currently curious about</span>
+            <span>Always evolving</span>
+          </div>
+          <h3>Things I love learning about</h3>
+          <p class="entry-description">
+            Add a few interests, hobbies, or topics you could happily talk
+            about for hours.
+          </p>
+          <div class="interest-tags" aria-label="Interest examples">
+            <span>Design</span>
+            <span>Technology</span>
+            <span>Photography</span>
+          </div>
+        </article>
+      </section>
+
+      <footer class="page-footer">
+        <span>Hamza Yousaf</span>
+        <a href="#home">Back to top ↑</a>
+      </footer>
+    </main>
+  </body>
+</html>
