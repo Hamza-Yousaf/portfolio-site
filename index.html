@@ -15,12 +15,11 @@
   </head>
   <body>
     <aside class="sidebar" aria-label="Portfolio navigation">
-      <a class="wordmark" href="#home" aria-label="Hamza Yousaf, home">
-        <span class="wordmark-mark" aria-hidden="true">HY</span>
-        <span>Hamza Yousaf</span>
-      </a>
+      <div class="sidebar-header">
+        <h1>Hamza Yousaf</h1>
+        <p>CS Student @ TMU</p>
+      </div>
 
-      <p class="sidebar-label">Explore</p>
       <nav class="section-nav" aria-label="Main sections">
         <a class="nav-link is-active" href="#home">Home</a>
         <a class="nav-link" href="#education">Education</a>
@@ -37,7 +36,7 @@
     </aside>
 
     <main>
-      <section class="hero" id="home" aria-labelledby="hero-title">
+      <section class="page-view hero is-active" id="home" aria-labelledby="hero-title">
         <h1 class="visually-hidden" id="hero-title">
           Welcome to my portfolio, enjoy your stay.
         </h1>
@@ -61,132 +60,166 @@
 ⠀⠀⠀⠀⠀⢠⣿⣿⠿⠋⠁⠀⠀⠀⠀⠉⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</pre>
         </div>
-
-        <a class="scroll-cue" href="#education" aria-label="Scroll to Education">
-          <span class="scroll-arrow" aria-hidden="true">↓</span>
-        </a>
       </section>
 
-      <section class="content-section" id="education" aria-labelledby="education-title">
-        <div class="section-heading">
-          <p class="eyebrow"><span>02</span> The foundation</p>
-          <h2 id="education-title">Education</h2>
-          <p class="section-intro">
-            The places, people, and ideas that shaped how I think.
-          </p>
-        </div>
-        <article class="entry-card">
-          <div class="entry-meta">
-            <span>Degree / Program</span>
-            <span>Year — Year</span>
-          </div>
-          <h3>Your degree or area of study</h3>
-          <p class="entry-subtitle">Institution name · City, Country</p>
-          <p class="entry-description">
-            Add a short note about your studies, a focus area, or something
-            meaningful you learned along the way.
-          </p>
-        </article>
-      </section>
-
-      <section class="content-section" id="experience" aria-labelledby="experience-title">
-        <div class="section-heading">
-          <p class="eyebrow"><span>03</span> The practice</p>
-          <h2 id="experience-title">Experience</h2>
-          <p class="section-intro">
-            A few roles and collaborations from my journey so far.
-          </p>
-        </div>
-        <article class="entry-card">
-          <div class="entry-meta">
-            <span>Role / Field</span>
-            <span>Year — Present</span>
-          </div>
-          <h3>Your role or position</h3>
-          <p class="entry-subtitle">Company or organization · City, Country</p>
-          <p class="entry-description">
-            Describe what you worked on, the people you worked with, and the
-            impact you helped make.
-          </p>
-        </article>
-      </section>
-
-      <section class="content-section" id="projects" aria-labelledby="projects-title">
-        <div class="section-heading">
-          <p class="eyebrow"><span>04</span> The experiments</p>
-          <h2 id="projects-title">Projects</h2>
-          <p class="section-intro">
-            Selected ideas brought to life, one small step at a time.
-          </p>
-        </div>
-        <article class="entry-card">
-          <div class="entry-meta">
-            <span>Personal / Collaborative</span>
-            <span>Year</span>
-          </div>
-          <h3>Your project name</h3>
-          <p class="entry-subtitle">Tools, technologies, or disciplines</p>
-          <p class="entry-description">
-            Share what the project does, why you made it, and what you learned
-            while building it.
-          </p>
-          <span class="text-link">Project link <span aria-hidden="true">↗</span></span>
-        </article>
-      </section>
-
-      <section class="content-section" id="resume" aria-labelledby="resume-title">
-        <div class="section-heading">
-          <p class="eyebrow"><span>05</span> The overview</p>
-          <h2 id="resume-title">Resume</h2>
-          <p class="section-intro">
-            A concise overview of my experience and what I bring to a team.
-          </p>
-        </div>
-        <article class="entry-card resume-card">
-          <div>
-            <div class="entry-meta">
-              <span>Resume / CV</span>
-              <span>PDF</span>
+      <section class="page-view content-page" id="education" aria-labelledby="education-title" hidden>
+        <article class="section-card">
+          <header class="section-card-header">
+            <h2 id="education-title">Education</h2>
+          </header>
+          <div class="section-card-body section-copy">
+            <div class="experience-entry">
+              <div class="entry-header">
+                <div>
+                  <h3>Bachelor of Science (Honours) in Computer Science</h3>
+                  <a href="https://www.torontomu.ca/" target="_blank" rel="noopener noreferrer">
+                    Toronto Metropolitan University
+                  </a>
+                </div>
+                <span class="entry-meta">Sep 2024 – Apr 2028</span>
+              </div>
+              <p>
+                Third-year Computer Science Co-op student pursuing an undergraduate
+                degree with a focus on software development and AI/ML. Expected to graduate in April 2028.
+              </p>
             </div>
-            <h3>Your next chapter starts here.</h3>
-            <p class="entry-description">
-              Add a brief note and link your latest resume when it’s ready.
-            </p>
-          </div>
-          <span class="resume-mark" aria-hidden="true">CV</span>
-        </article>
-      </section>
-
-      <section class="content-section" id="interests" aria-labelledby="interests-title">
-        <div class="section-heading">
-          <p class="eyebrow"><span>06</span> Beyond the work</p>
-          <h2 id="interests-title">Interests</h2>
-          <p class="section-intro">
-            The curiosities and little pursuits that keep me inspired.
-          </p>
-        </div>
-        <article class="entry-card">
-          <div class="entry-meta">
-            <span>Currently curious about</span>
-            <span>Always evolving</span>
-          </div>
-          <h3>Things I love learning about</h3>
-          <p class="entry-description">
-            Add a few interests, hobbies, or topics you could happily talk
-            about for hours.
-          </p>
-          <div class="interest-tags" aria-label="Interest examples">
-            <span>Design</span>
-            <span>Technology</span>
-            <span>Photography</span>
           </div>
         </article>
       </section>
 
-      <footer class="page-footer">
-        <span>Hamza Yousaf</span>
-        <a href="#home">Back to top ↑</a>
-      </footer>
+      <section class="page-view content-page" id="experience" aria-labelledby="experience-title" hidden>
+        <article class="section-card">
+          <header class="section-card-header">
+            <h2 id="experience-title">Experience</h2>
+          </header>
+            <div class="section-card-body section-copy">
+              <div class="experience-entry">
+                <div class="entry-header">
+                  <div>
+                    <h3>Software Engineering Intern</h3>
+                    <a href="https://www.expensetrend.com/" target="_blank" rel="noopener noreferrer">
+                      Expense Trend
+                    </a>
+                  </div>
+                  <span class="entry-meta">Jul 2026 – Sep 2026</span>
+                </div>
+                <p>
+                  Developed features for an iOS onboarding analytics platform, including
+                  an A/B testing dashboard using Next.js and TypeScript. Worked on backend
+                  services integrating Google Gemini to generate recommendations for
+                  optimizing app onboarding and paywall experiences.
+                </p>
+              </div>
+
+              <div class="experience-entry">
+                <div class="entry-header">
+                  <div>
+                    <h3>Coding Instructor Volunteer</h3>
+                    <a href="https://www.codeninjas.com/" target="_blank" rel="noopener noreferrer">
+                      Code Ninjas
+                    </a>
+                  </div>
+                  <span class="entry-meta">Jul 2023</span>
+                </div>
+                <p>
+                  Assisted with teaching a summer coding camp, introducing students to
+                  Python, programming fundamentals, and problem-solving. Also helped
+                  students explore Arduino microcontrollers, robotics, and basic
+                  embedded programming.
+                </p>
+              </div>
+
+              <div class="experience-entry">
+                <p>
+                  Currently seeking internship opportunities in software development.
+                </p>
+              </div>
+            </div>
+        </article>
+      </section>
+
+      <section class="page-view content-page" id="projects" aria-labelledby="projects-title" hidden>
+        <article class="section-card">
+          <header class="section-card-header">
+            <h2 id="projects-title">Projects</h2>
+          </header>
+          <div class="section-card-body section-copy project-entries">
+            <div class="experience-entry">
+              <div class="entry-header">
+                <div><h3>Project Name</h3></div>
+                <span class="entry-meta">Project 01</span>
+              </div>
+              <p>
+                Project details, tech stack, and links coming soon.
+              </p>
+            </div>
+            <div class="experience-entry">
+              <div class="entry-header">
+                <div><h3>Project Name</h3></div>
+                <span class="entry-meta">Project 02</span>
+              </div>
+              <p>
+                Project details, tech stack, and links coming soon.
+              </p>
+            </div>
+            <div class="experience-entry">
+              <div class="entry-header">
+                <div><h3>Project Name</h3></div>
+                <span class="entry-meta">Project 03</span>
+              </div>
+              <p>
+                Project details, tech stack, and links coming soon.
+              </p>
+            </div>
+            <div class="experience-entry">
+              <div class="entry-header">
+                <div><h3>Project Name</h3></div>
+                <span class="entry-meta">Project 04</span>
+              </div>
+              <p>
+                Project details, tech stack, and links coming soon.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="page-view content-page" id="resume" aria-labelledby="resume-title" hidden>
+        <article class="section-card resume-card">
+          <header class="section-card-header">
+            <h2 id="resume-title">Resume</h2>
+          </header>
+          <div class="section-card-body resume-body">
+            <div class="resume-actions">
+              <a class="resume-action" href="resume.pdf" download>Download</a>
+              <button class="resume-action" type="button" data-resume-fullscreen>
+                Fullscreen
+              </button>
+              <output class="visually-hidden" aria-live="polite" data-resume-status></output>
+            </div>
+            <div class="resume-preview" id="resume-preview">
+              <iframe src="resume.pdf" title="Resume PDF"></iframe>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="page-view content-page" id="interests" aria-labelledby="interests-title" hidden>
+        <article class="section-card">
+          <header class="section-card-header">
+            <h2 id="interests-title">Interests</h2>
+          </header>
+          <div class="section-card-body section-copy">
+            <div class="experience-entry">
+              <div class="entry-header">
+                <div><h3>Personal Interests</h3></div>
+                <span class="entry-meta">Coming Soon</span>
+              </div>
+              <p>I'll add some details about my interests here soon.</p>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
   </body>
 </html>
