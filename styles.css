@@ -87,8 +87,7 @@ a {
 }
 
 .eyebrow,
-.entry-meta,
-.sidebar-footer {
+.entry-meta {
   font-family: var(--mono);
   font-size: 10px;
   font-weight: 400;
@@ -118,20 +117,35 @@ a {
   text-underline-offset: 4px;
 }
 
-.sidebar-footer {
-  display: flex;
-  align-items: center;
+.sidebar-contact {
+  display: grid;
   gap: 9px;
   margin-top: auto;
-  color: var(--muted);
-  font-size: 9px;
+  padding: 18px 12px 0;
+  border-top: 1px solid var(--line);
 }
 
-.availability-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #999999;
+.sidebar-contact h2 {
+  margin: 0;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.sidebar-contact a {
+  color: var(--muted);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+  transition: color 160ms ease;
+}
+
+.sidebar-contact a:hover,
+.sidebar-contact a:focus-visible {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 main {
@@ -321,14 +335,16 @@ main {
 }
 
 .resume-preview {
-  height: min(54svh, 480px);
-  min-height: 280px;
+  height: min(80svh, 800px);
+  min-height: 550px;
   border: 1px solid var(--line);
   background: var(--soft);
+  overflow: hidden;
 }
 
 .resume-preview:fullscreen {
   height: 100%;
+  width: 100%;
   background: var(--paper);
 }
 
@@ -419,7 +435,7 @@ main {
     height: 30px;
   }
 
-  .sidebar-footer {
+  .sidebar-contact {
     display: none;
   }
 
@@ -574,6 +590,11 @@ main {
 
 .project-entries .entry-header h3 {
   font-size: 15px;
+}
+
+.project-entries .entry-header h3 a {
+  color: inherit;
+  font-size: inherit;
 }
 
 .project-entries .experience-entry > p {
